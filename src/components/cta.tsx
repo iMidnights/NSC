@@ -6,6 +6,9 @@ export default function Example() {
             className="h-full w-full object-cover"
             src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply"
             alt=""
+            style={{
+              filter: "hue-rotate(90deg)"
+            }}
           />
           <svg
             viewBox="0 0 926 676"
@@ -37,16 +40,14 @@ export default function Example() {
             <h2 className="text-base font-semibold leading-7 text-primary-400">Award winning support</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
             <p className="mt-6 text-base leading-7 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-              scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-              tincidunt duis.
+              At NSC Solutions, we're here to help your home healthcare business navigate the intricacies of maintaining a 245D license. Our expert consultants offer personalized guidance to ensure your compliance and success in this competitive industry. From quality assurance and program development to state visit preparations, our range of services is tailored to meet your specific needs. Let us support you in achieving excellence and growth. Contact us today to find out how we can assist you.
             </p>
             <div className="mt-8">
               <a
-                href="#"
+                href="/contact"
                 className="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Visit the help center
+                Contact us
               </a>
             </div>
           </div>

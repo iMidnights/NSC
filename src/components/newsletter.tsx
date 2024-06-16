@@ -73,14 +73,14 @@ export default function Example() {
                     <input
                       id="cta-email"
                       type="email"
-                      className="block w-full rounded-md border border-transparent px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
+                      className="block w-full rounded-md border border-transparent px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-600"
                       placeholder="Enter your email"
                     />
                   </div>
                   <div className="mt-4 sm:ml-3 sm:mt-0">
                     <button
                       type="submit"
-                      className="block w-full rounded-md border border-transparent bg-primary-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
+                      className="block w-full rounded-md border border-transparent bg-primary-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-primary-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-600 sm:px-10"
                     >
                       Notify me
                     </button>
