@@ -50,7 +50,7 @@ export default function Example() {
           flexFlow: "wrap"
         }}>
           {cards.map((card, index) => (
-            <motion.div initial={{ opacity: 0, y: "-10%" }} whileInView={{ opacity: 1, y: "0%" }} transition={{ duration: 1, ease: "easeOut", delay: index * .2 }} viewport={{ once: true }} key={card.name} className="flex flex-1 gap-x-4 rounded-xl max-w-60 bg-white/5 p-6 ring-1 ring-inset ring-white/10 outline outline-2 outline-primary-400 bg-primary-50 flex-col items-center gap-y-10">
+            <motion.div key={index} initial={{ opacity: 0, y: "-10%" }} whileInView={{ opacity: 1, y: "0%" }} transition={{ duration: 1, ease: "easeOut", delay: index * .2 }} viewport={{ once: true }} className="flex flex-1 gap-x-4 rounded-xl max-w-60 bg-white/5 p-6 ring-1 ring-inset ring-white/10 outline outline-2 outline-primary-400 bg-primary-50 flex-col items-center gap-y-10">
               <card.icon className="h-24 w-auto flex-none text-primary-900" aria-hidden="true" />
               <div className="text-base leading-7">
                 <h5 className="font-medium text-black text-lg text-center">{card.name}</h5>

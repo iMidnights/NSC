@@ -84,7 +84,7 @@ export default function Example() {
                                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.8 }} viewport={{ once: true }} className="relative tint">
                                         <img
                                             src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=528&q=80"
-                                            alt=""
+                                            alt="Tall buildings"
                                             className="saturate-50 aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         />
                                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -94,7 +94,7 @@ export default function Example() {
                                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} viewport={{ once: true }} className="relative tint">
                                         <img
                                             src="https://images.unsplash.com/photo-1562564055-71e051d33c19?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=528&q=80"
-                                            alt=""
+                                            alt="Document writing"
                                             className="saturate-50 aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         />
                                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -102,7 +102,7 @@ export default function Example() {
                                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.6 }} viewport={{ once: true }} className="relative tint">
                                         <img
                                             src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
-                                            alt=""
+                                            alt="Working together"
                                             className="saturate-50 aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         />
                                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -112,7 +112,7 @@ export default function Example() {
                                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0 }} viewport={{ once: true }} className="relative tint">
                                         <img
                                             src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
-                                            alt=""
+                                            alt="Man on tablet"
                                             className="saturate-50 aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         />
                                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -120,7 +120,7 @@ export default function Example() {
                                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }} viewport={{ once: true }} className="relative tint">
                                         <img
                                             src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                                            alt=""
+                                            alt="Two people working together"
                                             className="saturate-50 aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         />
                                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />

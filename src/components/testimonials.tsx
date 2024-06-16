@@ -84,7 +84,7 @@ const featuredTestimonial = {
                     )}
                   >
                     {column.map((testimonial, index) => (
-                      <motion.div initial={{ opacity: 0, y: "-10%" }} whileInView={{ opacity: 1, y: "0%" }} transition={{ duration: 1, ease: "easeOut", delay: index * .2 }} viewport={{ once: true }}>
+                      <motion.div key={index} initial={{ opacity: 0, y: "-10%" }} whileInView={{ opacity: 1, y: "0%" }} transition={{ duration: 1, ease: "easeOut", delay: index * .2 }} viewport={{ once: true }}>
                         <figure
                           key={index}
                           className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"

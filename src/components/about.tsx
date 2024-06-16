@@ -19,7 +19,7 @@ import { motion } from "framer-motion"
                 <img
                   className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
                   src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
-                  alt=""
+                  alt="People Jumping"
                 />
                 <div className="absolute inset-0 bg-primary-900/75 mix-blend-multiply" />
                 <div
@@ -37,6 +37,7 @@ import { motion } from "framer-motion"
                 <figure className="relative isolate">
                   <img
                     src="/NSC-Logo.png"
+                    alt="Logo"
                     className="h-12 w-auto"
                     style={{
                       filter: "brightness(100)"

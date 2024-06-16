@@ -201,7 +201,7 @@ export default function Example() {
               </div>
               <motion.img
                 src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
-                alt=""
+                alt="Group picture of people"
                 initial={{ opacity: 0, y: "-10%" }} whileInView={{ opacity: 1, y: "0%" }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
               />
@@ -223,7 +223,7 @@ export default function Example() {
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0 }} viewport={{ once: true }} className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                   <img
                     src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
-                    alt=""
+                    alt="Two people working together"
                     className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </motion.div>
@@ -231,21 +231,21 @@ export default function Example() {
                   <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.6 }} viewport={{ once: true }} className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                     <img
                       src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                      alt=""
+                      alt="Group discussion"
                       className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                     />
                   </motion.div>
                   <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }} viewport={{ once: true }} className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                     <img
                       src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
-                      alt=""
+                      alt="Meeting"
                       className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                     />
                   </motion.div>
                   <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} viewport={{ once: true }} className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                     <img
                       src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                      alt=""
+                      alt="Volleyball"
                       className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                     />
                   </motion.div>
