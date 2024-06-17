@@ -39,7 +39,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <script src="//code.tidio.co/za4274qrwu8dqvrzoqauhrxpokzlie2k.js" async></script>
       </head>
       <body className="font-kanit">
         {children}
