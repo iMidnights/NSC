@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://nscsolutions.com",
-    siteName: "NSC Solutions",
+    siteName: "North Star Consulting Solutions",
     description: "North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting",
     emails: ["nsconsultingsolutions@gmail.com"],
     images: ["/NSC-Logo.png"],
