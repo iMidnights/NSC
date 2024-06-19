@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   },
   title: {
     template: '%s | NSC Solutions',
-    default: 'NSC Solutions', // a default is required when creating a template
+    default: 'NSC Solutions'
   },
   description: "North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting",
   keywords: ["Home Healthcare", "Consulting", "Quality Assurance", "Regulatory Compliance"],
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     url: "https://nscsolutions.com",
     siteName: "North Star Consulting Solutions",
     description: "North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting",
-    emails: ["nsconsultingsolutions@gmail.com"],
-    images: ["/NSC-Logo.png"],
+    emails: ["nsconsultingsolutionsllc@gmail.com"],
+    images: ["/NSC-Logo.png"]
   },
   twitter: {
     card: "summary_large_image",

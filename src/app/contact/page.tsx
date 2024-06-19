@@ -72,8 +72,8 @@ export default function Example() {
                                     <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                                 </dt>
                                 <dd>
-                                    <a className="hover:text-gray-900" href="mailto:nsconsultingsolutions@gmail.com">
-                                        nsconsultingsolutions@gmail.com
+                                    <a className="hover:text-gray-900" href="mailto:nsconsultingsolutionsllc@gmail.com">
+                                        nsconsultingsolutionsllc@gmail.com
                                     </a>
                                 </dd>
                             </div>

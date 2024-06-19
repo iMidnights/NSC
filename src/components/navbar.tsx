@@ -103,7 +103,7 @@ export default function Navbar({ current = "Home" }: { current?: string }) {
               </div>
               <div className="hidden lg:ml-4 lg:flex lg:gap-4 lg:items-center text-gray-600">
                     <div>
-                        <a className="text-sm font-medium text-gray-500 mr-2" href='mailto:nsconsultingsolutions@gmail.com'>nsconsultingsolutions@gmail.com</a>
+                        <a className="text-sm font-medium text-gray-500 mr-2" href='mailto:nsconsultingsolutionsllc@gmail.com'>nsconsultingsolutionsllc@gmail.com</a>
                         <span className='text-gray-300'>●</span>
                         <a className="text-base font-medium text-gray-600 ml-2 font-kanit" href='tel:507-200-8022'>507-200-8022</a>
                     </div>
@@ -135,7 +135,7 @@ export default function Navbar({ current = "Home" }: { current?: string }) {
               <div className="flex items-center">
                 <div className="ml-3 flex flex-col">
                   <a className="text-base font-medium text-gray-800" href='tel:507-200-8022'>507-200-8022</a>
-                  <a className="text-sm font-medium text-gray-500" href='mailto:nsconsultingsolutions@gmail.com'>nsconsultingsolutions@gmail.com</a>
+                  <a className="text-sm font-medium text-gray-500" href='mailto:nsconsultingsolutionsllc@gmail.com'>nsconsultingsolutionsllc@gmail.com</a>
                 </div>
               </div>
             </div>
