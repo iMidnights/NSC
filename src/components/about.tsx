@@ -1,5 +1,7 @@
 "use client"
 
+export const dynamic = 'force-static'
+
 const stats = [
     { label: 'Founded', value: '2021' },
     { label: 'Employees', value: '37' },

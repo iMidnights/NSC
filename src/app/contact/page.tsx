@@ -2,7 +2,7 @@ import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 
-import { Metadata } from "next"
+import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: 'Contact',
 }

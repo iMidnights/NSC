@@ -1,5 +1,9 @@
 import Page from "@/components/aboutPage"
-import { Metadata } from "next"
+
+import type { Metadata } from "next"
+
+export const dynamic = 'force-static'
+
 export const metadata: Metadata = {
   title: 'About',
 }
