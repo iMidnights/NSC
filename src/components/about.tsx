@@ -1,30 +1,36 @@
-"use client"
+'use client'
 
 export const dynamic = 'force-static'
 
 const stats = [
-    { label: 'Founded', value: '2021' },
-    { label: 'Employees', value: '37' },
-    { label: 'Countries', value: '12' },
-    { label: 'Raised', value: '$25M' },
-  ]
-  
-import { motion } from "framer-motion"
+  { label: 'Founded', value: '2021' },
+  { label: 'Employees', value: '37' },
+  { label: 'Countries', value: '12' },
+  { label: 'Raised', value: '$25M' },
+]
 
-  export default function About() {
-    return (
-      <section id="about" className="bg-white py-24 sm:py-32 min-h-dvh">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="lg:pr-4">
-              <motion.div initial={{ opacity: 0, y: "-10%" }} whileInView={{ opacity: 1, y: "0%" }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}  className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                <img
-                  className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
-                  src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
-                  alt="People Jumping"
-                />
-                <div className="absolute inset-0 bg-primary-900/75 mix-blend-multiply" />
-                {/* <div
+import { motion } from 'framer-motion'
+
+export default function About() {
+  return (
+    <section id="about" className="bg-white py-24 sm:py-32 min-h-dvh">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="lg:pr-4">
+            <motion.div
+              initial={{ opacity: 0, y: '-10%' }}
+              whileInView={{ opacity: 1, y: '0%' }}
+              transition={{ duration: 1, ease: 'easeOut' }}
+              viewport={{ once: true }}
+              className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"
+            >
+              <img
+                className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
+                src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
+                alt="People Jumping"
+              />
+              <div className="absolute inset-0 bg-primary-900/75 mix-blend-multiply" />
+              {/* <div
                   className="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl"
                   aria-hidden="true"
                 >
@@ -36,41 +42,50 @@ import { motion } from "framer-motion"
                     }}
                   />
                 </div> */}
-                <figure className="relative isolate">
-                  <img
-                    src="/NSC-Logo.png"
-                    alt="Logo"
-                    className="h-12 w-auto"
-                    style={{
-                      filter: "brightness(100)"
-                    }}
-                  />
-                  <blockquote className="mt-6 text-xl font-normal leading-8 text-white">
-                    <p>
-                      North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting
-                    </p>
-                  </blockquote>
-                  <figcaption className="mt-6 text-sm leading-6 text-gray-300">
-                    Unlock success in home healthcare
-                  </figcaption>
-                </figure>
-              </motion.div>
-            </div>
-            <div>
-              <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-primary-600">Company values</p>
-                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  On a mission to empower remote teams
-                </h1>
-                <div className="max-w-xl">
-                  <p className="mt-6">
-                    
-About North Star Consulting Solutions
-Empowering Minnesota 245D Providers to Success
-
-North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. Our team of experts has years of experience in 245D license maintenance and regulatory compliance. We believe in fostering a community of confident and knowledgeable healthcare entrepreneurs to build sustainable and successful home healthcare businesses. Let NSC Solutions be your partner in this journey to success.
+              <figure className="relative isolate">
+                <img
+                  src="/NSC-Logo.png"
+                  alt="Logo"
+                  className="h-12 w-auto"
+                  style={{
+                    filter: 'brightness(100)',
+                  }}
+                />
+                <blockquote className="mt-6 text-xl font-normal leading-8 text-white">
+                  <p>
+                    North Star Consulting Solutions is a dedicated consulting
+                    firm focused on providing top-notch services to empower
+                    small business home healthcare providers. 245D Consulting
                   </p>
-                  {/* <p className="mt-8">
+                </blockquote>
+                <figcaption className="mt-6 text-sm leading-6 text-gray-300">
+                  Unlock success in home healthcare
+                </figcaption>
+              </figure>
+            </motion.div>
+          </div>
+          <div>
+            <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
+              <p className="text-base font-semibold leading-7 text-primary-600">
+                Company values
+              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                On a mission to empower remote teams
+              </h1>
+              <div className="max-w-xl">
+                <p className="mt-6">
+                  About North Star Consulting Solutions Empowering Minnesota
+                  245D Providers to Success North Star Consulting Solutions is a
+                  dedicated consulting firm focused on providing top-notch
+                  services to empower small business home healthcare providers.
+                  Our team of experts has years of experience in 245D license
+                  maintenance and regulatory compliance. We believe in fostering
+                  a community of confident and knowledgeable healthcare
+                  entrepreneurs to build sustainable and successful home
+                  healthcare businesses. Let NSC Solutions be your partner in
+                  this journey to success.
+                </p>
+                {/* <p className="mt-8">
                     Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
                     auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
                     hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
@@ -80,9 +95,9 @@ North Star Consulting Solutions is a dedicated consulting firm focused on provid
                     auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
                     hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
                   </p> */}
-                </div>
               </div>
-              {/* <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
+            </div>
+            {/* <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
                 {stats.map((stat, statIdx) => (
                   <div key={statIdx}>
                     <dt className="text-sm font-semibold leading-6 text-gray-600">{stat.label}</dt>
@@ -90,15 +105,18 @@ North Star Consulting Solutions is a dedicated consulting firm focused on provid
                   </div>
                 ))}
               </dl> */}
-              <div className="mt-10 flex">
-                <a href="/about" className="text-base font-semibold leading-7 text-primary-600">
-                  Learn more about our company <span aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
+            <div className="mt-10 flex">
+              <a
+                href="/about"
+                className="text-base font-semibold leading-7 text-primary-600"
+              >
+                Learn more about our company{' '}
+                <span aria-hidden="true">&rarr;</span>
+              </a>
             </div>
           </div>
         </div>
-      </section>
-    )
-  }
-  
+      </div>
+    </section>
+  )
+}

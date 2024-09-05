@@ -63,10 +63,14 @@ export default function Example() {
         <div
           key={action.title}
           className={classNames(
-            actionIdx === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
+            actionIdx === 0
+              ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none'
+              : '',
             actionIdx === 1 ? 'sm:rounded-tr-lg' : '',
             actionIdx === actions.length - 2 ? 'sm:rounded-bl-lg' : '',
-            actionIdx === actions.length - 1 ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' : '',
+            actionIdx === actions.length - 1
+              ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none'
+              : '',
             'group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500',
           )}
         >
@@ -90,8 +94,8 @@ export default function Example() {
               </a>
             </h3>
             <p className="mt-2 text-sm text-gray-500">
-              Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et
-              quo et molestiae.
+              Doloribus dolores nostrum quia qui natus officia quod et dolorem.
+              Sit repellendus qui ut at blanditiis et quo et molestiae.
             </p>
           </div>
           <span
