@@ -1,25 +1,7 @@
 'use client'
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-import React, { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-import { Metadata } from 'next'
 import { motion } from 'framer-motion'
 
 const timeline = [
@@ -172,8 +154,6 @@ const footerNavigation = {
 }
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <div className="bg-white">
       {/* Header */}

@@ -3,12 +3,9 @@ export default function Example() {
     <section id="cta" className="relative bg-gray-900">
       <div className="relative h-80 overflow-hidden bg-primary-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
         <img
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover hue-rotate-90"
           src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply"
           alt="Team work"
-          style={{
-            filter: 'hue-rotate(90deg)',
-          }}
         />
       </div>
       <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">

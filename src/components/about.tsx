@@ -46,10 +46,7 @@ export default function About() {
                 <img
                   src="/NSC-Logo.png"
                   alt="Logo"
-                  className="h-12 w-auto"
-                  style={{
-                    filter: 'brightness(100)',
-                  }}
+                  className="h-12 w-auto brightness-[100] filter"
                 />
                 <blockquote className="mt-6 text-xl font-normal leading-8 text-white">
                   <p>

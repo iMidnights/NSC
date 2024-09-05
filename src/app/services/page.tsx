@@ -1,8 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -79,6 +77,7 @@ export default function Example() {
                   <a
                     href="https://calendar.app.google/2hoR1pWAxXxL1oS36"
                     target="_blank"
+                    rel='noopener'
                     className="rounded-md bg-primary-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
                   >
                     Book Consultation

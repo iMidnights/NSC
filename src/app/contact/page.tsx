@@ -1,113 +1,176 @@
-import {
-  AcademicCapIcon,
-  BanknotesIcon,
-  CheckBadgeIcon,
-  ClockIcon,
-  ReceiptRefundIcon,
-  UsersIcon,
-} from '@heroicons/react/24/outline'
+import Footer from '@/components/footer'
+import Navbar from '@/components/navbar'
+import { EnvelopeIcon, PhoneIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 
-const actions = [
-  {
-    title: 'Request time off',
-    href: '#',
-    icon: ClockIcon,
-    iconForeground: 'text-teal-700',
-    iconBackground: 'bg-teal-50',
-  },
-  {
-    title: 'Benefits',
-    href: '#',
-    icon: CheckBadgeIcon,
-    iconForeground: 'text-purple-700',
-    iconBackground: 'bg-purple-50',
-  },
-  {
-    title: 'Schedule a one-on-one',
-    href: '#',
-    icon: UsersIcon,
-    iconForeground: 'text-sky-700',
-    iconBackground: 'bg-sky-50',
-  },
-  {
-    title: 'Payroll',
-    href: '#',
-    icon: BanknotesIcon,
-    iconForeground: 'text-yellow-700',
-    iconBackground: 'bg-yellow-50',
-  },
-  {
-    title: 'Submit an expense',
-    href: '#',
-    icon: ReceiptRefundIcon,
-    iconForeground: 'text-rose-700',
-    iconBackground: 'bg-rose-50',
-  },
-  {
-    title: 'Training',
-    href: '#',
-    icon: AcademicCapIcon,
-    iconForeground: 'text-indigo-700',
-    iconBackground: 'bg-indigo-50',
-  },
-]
+import type { Metadata } from "next"
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+export const metadata: Metadata = {
+  title: 'Contact',
 }
 
+
 export default function Example() {
-  return (
-    <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
-      {actions.map((action, actionIdx) => (
-        <div
-          key={action.title}
-          className={classNames(
-            actionIdx === 0
-              ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none'
-              : '',
-            actionIdx === 1 ? 'sm:rounded-tr-lg' : '',
-            actionIdx === actions.length - 2 ? 'sm:rounded-bl-lg' : '',
-            actionIdx === actions.length - 1
-              ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none'
-              : '',
-            'group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500',
-          )}
-        >
-          <div>
-            <span
-              className={classNames(
-                action.iconBackground,
-                action.iconForeground,
-                'inline-flex rounded-lg p-3 ring-4 ring-white',
-              )}
-            >
-              <action.icon aria-hidden="true" className="h-6 w-6" />
-            </span>
-          </div>
-          <div className="mt-8">
-            <h3 className="text-base font-semibold leading-6 text-gray-900">
-              <a href={action.href} className="focus:outline-none">
-                {/* Extend touch target to entire panel */}
-                <span aria-hidden="true" className="absolute inset-0" />
-                {action.title}
-              </a>
-            </h3>
-            <p className="mt-2 text-sm text-gray-500">
-              Doloribus dolores nostrum quia qui natus officia quod et dolorem.
-              Sit repellendus qui ut at blanditiis et quo et molestiae.
-            </p>
-          </div>
-          <span
-            aria-hidden="true"
-            className="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400"
-          >
-            <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6">
-              <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-            </svg>
-          </span>
+    return (
+        <div className="relative isolate bg-white">
+            <Navbar current='Contact' />
+            <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+                <div className="relative px-6 pb-20 pt-24 sm:pt-16 lg:static lg:px-8 lg:py-40 min-h-[calc(100dvh-64px-120px)]">
+                    <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+                        <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
+                            <svg
+                                className="absolute inset-0 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                                aria-hidden="true"
+                            >
+                                <defs>
+                                    <pattern
+                                        id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527"
+                                        width={200}
+                                        height={200}
+                                        x="100%"
+                                        y={-1}
+                                        patternUnits="userSpaceOnUse"
+                                    >
+                                        <path d="M130 200V.5M.5 .5H200" fill="none" />
+                                    </pattern>
+                                </defs>
+                                <rect width="100%" height="100%" strokeWidth={0} fill="white" />
+                                <svg x="100%" y={-1} className="overflow-visible fill-gray-50">
+                                    <path d="M-470.5 0h201v201h-201Z" strokeWidth={0} />
+                                </svg>
+                                <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
+                            </svg>
+                        </div>
+                        <h2 className="sm:text-5xl text-3xl font-bold tracking-tight text-gray-900 font-domine">Book a Consultation Today</h2>
+                        <p className="mt-6 text-lg leading-8 text-gray-600">
+                            NSC Solutions is here to guide you on your journey to building a successful home healthcare business. Contact us today to book a consultation and receive expert guidance and support.
+                        </p>
+                        <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
+                            {/* <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Address</span>
+                                    <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                                </dt>
+                                <dd>
+                                    545 Mavis Island
+                                    <br />
+                                    Chicago, IL 99191
+                                </dd>
+                            </div> */}
+                            <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Telephone</span>
+                                    <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                                </dt>
+                                <dd>
+                                    <a className="hover:text-gray-900" href="tel:507-200-8022">
+                                        507-200-8022
+                                    </a>
+                                </dd>
+                            </div>
+                            <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Email</span>
+                                    <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                                </dt>
+                                <dd>
+                                    <a className="hover:text-gray-900" href="mailto:nsconsultingsolutionsllc@gmail.com">
+                                        nsconsultingsolutionsllc@gmail.com
+                                    </a>
+                                </dd>
+                            </div>
+                            <a
+                                href="https://calendar.app.google/2hoR1pWAxXxL1oS36"
+                                className="flex gap-x-2 w-fit rounded-md bg-primary-600 px-3.5 py-2.5 mt-4 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+                            >
+                                <span className="sr-only">Book appointment</span>
+                                Book appointment
+                                <ArrowTopRightOnSquareIcon className="h-5 w-5" aria-hidden="true" />
+                            </a>
+                        </dl>
+                    </div>
+                </div>
+                <div className='h-full w-full' style={{
+                    backgroundImage: "url('https://static.wixstatic.com/media/11062b_f8ea767766f545c081108cd29b033e37~mv2.jpg/v1/fill/w_490,h_883,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_f8ea767766f545c081108cd29b033e37~mv2.jpg')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}>
+                    {/* <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+                        <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                            <div>
+                                <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
+                                    First name
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="text"
+                                        name="first-name"
+                                        id="first-name"
+                                        autoComplete="given-name"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
+                                    Last name
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="text"
+                                        name="last-name"
+                                        id="last-name"
+                                        autoComplete="family-name"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+                                    Email
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        autoComplete="email"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
+                                    Phone number
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="tel"
+                                        name="phone-number"
+                                        id="phone-number"
+                                        autoComplete="tel"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
+                                    Message
+                                </label>
+                                <div className="mt-2.5">
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        rows={4}
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
+                                        defaultValue={''}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
+                </div>
+            </div>
+            <Footer />
         </div>
-      ))}
-    </div>
-  )
+    )
 }

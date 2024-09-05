@@ -1,34 +1,14 @@
 'use client'
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-import { Fragment, useState } from 'react'
+
+import { useState } from 'react'
 import {
   Disclosure,
   DisclosureButton,
-  DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
-  Transition,
+  DisclosurePanel
 } from '@headlessui/react'
-import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import {
   ArrowTopRightOnSquareIcon,
   Bars3Icon,
-  BellIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 
