@@ -43,6 +43,10 @@ export default function Navbar({ current = "Home" }: { current?: string }) {
             href: '/about',
         },
         {
+            name: 'Services',
+            href: '/services',
+        },
+        {
             name: 'Contact',
             href: '/contact',
         },
