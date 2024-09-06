@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: ['/NSC-Logo.png'],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     site: '@nsconsultingsolutions',
     description:
       'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting',
