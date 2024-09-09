@@ -39,7 +39,10 @@ export default function About() {
                 <img
                   src="/NSC-Logo.png"
                   alt="Logo"
-                  className="h-12 w-auto brightness-[100] filter"
+                  className="h-12 w-auto"
+                  style={{
+                    filter: 'drop-shadow(2px 4px 6px black)',
+                  }}
                 />
                 <blockquote className="mt-6 text-xl font-normal leading-8 text-white">
                   <p>
@@ -64,16 +67,15 @@ export default function About() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  About North Star Consulting Solutions Empowering Minnesota
-                  245D Providers to Success North Star Consulting Solutions is a
-                  dedicated consulting firm focused on providing top-notch
-                  services to empower small business home healthcare providers.
-                  Our team of experts has years of experience in 245D license
-                  maintenance and regulatory compliance. We believe in fostering
-                  a community of confident and knowledgeable healthcare
-                  entrepreneurs to build sustainable and successful home
-                  healthcare businesses. Let NSC Solutions be your partner in
-                  this journey to success.
+                  At North Star Consulting Solutions, we specialize in providing
+                  expert compliance consulting for 245D providers. As a
+                  family-owned business with over five years of experience, we
+                  understand the challenges faced by providers in navigating
+                  245D regulations. Our mission is to offer personalized,
+                  reliable, and timely support to ensure your business meets all
+                  regulatory requirements while delivering quality care. We take
+                  pride in empowering healthcare entrepreneurs to thrive and
+                  grow in their industry.
                 </p>
                 {/* <p className="mt-8">
                     Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie

@@ -4,7 +4,6 @@ import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import { motion } from 'framer-motion'
 
-
 export default function Example() {
   return (
     <div className="bg-white">
@@ -64,7 +63,7 @@ export default function Example() {
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-domine">
                   Our Philosophy
                 </h2>
-                <p className="mt-6 text-xl leading-8 text-gray-600">
+                <p className="mt-6 text-lg leading-8 text-gray-600">
                   At NSC Solutions, we believe in fostering a community of
                   knowledgeable and confident healthcare entrepreneurs. Our
                   mission is to provide you with the tools and expertise needed

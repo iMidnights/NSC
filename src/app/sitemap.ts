@@ -14,12 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
-    {
-      url: 'https://www.nscsolutions.org/services',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
+    // {
+    //   url: 'https://www.nscsolutions.org/services',
+    //   lastModified: new Date(),
+    //   changeFrequency: 'monthly',
+    //   priority: 0.8,
+    // },
     {
       url: 'https://www.nscsolutions.org/contact',
       lastModified: new Date(),

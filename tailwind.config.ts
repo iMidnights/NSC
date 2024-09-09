@@ -23,7 +23,7 @@ const config: Config = {
           50: "#f3e6e8",
         },
       },
-      fontFamily: { 
+      fontFamily: {
         "domine": ['Domine', 'serif'],
         "kanit": ['Kanit', 'sans-serif'],
       },

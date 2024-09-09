@@ -13,12 +13,20 @@ export const metadata: Metadata = {
     default: 'NSC Solutions',
   },
   description:
-    'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting',
+    'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers.',
   keywords: [
     'Home Healthcare',
     'Consulting',
     'Quality Assurance',
     'Regulatory Compliance',
+    '245D Compliance',
+    'Support Correction',
+    'Order Support Notice of Reinspections',
+    'Organizational Systems',
+    'Program Audits',
+    'Quality Assurance',
+    'Application Support',
+    'Routine Oversight',
   ],
   openGraph: {
     type: 'website',
@@ -26,7 +34,7 @@ export const metadata: Metadata = {
     url: 'https://nscsolutions.com',
     siteName: 'North Star Consulting Solutions',
     description:
-      'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting',
+      'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers.',
     emails: [details.email],
     images: ['/NSC-Logo.png'],
   },
@@ -34,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary',
     site: '@nsconsultingsolutions',
     description:
-      'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting',
+      'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers.',
     title: 'NSC Solutions',
     images: ['/NSC-Logo.png'],
   },

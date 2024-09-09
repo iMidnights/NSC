@@ -4,7 +4,7 @@ import { useState } from 'react'
 import {
   Disclosure,
   DisclosureButton,
-  DisclosurePanel
+  DisclosurePanel,
 } from '@headlessui/react'
 import {
   ArrowTopRightOnSquareIcon,
@@ -28,10 +28,10 @@ export default function Navbar({ current = 'Home' }: { current?: string }) {
       name: 'About',
       href: '/about',
     },
-    {
-      name: 'Services',
-      href: '/services',
-    },
+    // {
+    //   name: 'Services',
+    //   href: '/services',
+    // },
     {
       name: 'Contact',
       href: '/contact',
