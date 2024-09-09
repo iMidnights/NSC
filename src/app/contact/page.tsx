@@ -1,13 +1,13 @@
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { EnvelopeIcon, PhoneIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
+import { details } from '@/config/config'
 
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: 'Contact',
 }
-
 
 export default function Example() {
     return (
@@ -62,8 +62,8 @@ export default function Example() {
                                     <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                                 </dt>
                                 <dd>
-                                    <a className="hover:text-gray-900" href="tel:507-200-8022">
-                                        507-200-8022
+                                    <a className="hover:text-gray-900" href={`tel:${details.phoneNumber}`}>
+                                        {details.phoneNumber}
                                     </a>
                                 </dd>
                             </div>
@@ -73,8 +73,8 @@ export default function Example() {
                                     <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                                 </dt>
                                 <dd>
-                                    <a className="hover:text-gray-900" href="mailto:nsconsultingsolutionsllc@gmail.com">
-                                        nsconsultingsolutionsllc@gmail.com
+                                    <a className="hover:text-gray-900" href={`mailto:${details.email}`}>
+                                        {details.email}
                                     </a>
                                 </dd>
                             </div>

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { details } from '@/config/config'
+
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
     siteName: 'North Star Consulting Solutions',
     description:
       'North Star Consulting Solutions is a dedicated consulting firm focused on providing top-notch services to empower small business home healthcare providers. 245D Consulting',
-    emails: ['nsconsultingsolutionsllc@gmail.com'],
+    emails: [details.email],
     images: ['/NSC-Logo.png'],
   },
   twitter: {

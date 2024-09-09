@@ -2,18 +2,9 @@
 
 import { useState } from 'react'
 
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
-
 import { motion } from 'framer-motion'
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <main className="bg-red-50">
       <div className="relative isolate">

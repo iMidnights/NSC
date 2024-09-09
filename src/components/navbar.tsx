@@ -11,6 +11,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+import { details } from '@/config/config'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -99,16 +100,16 @@ export default function Navbar({ current = 'Home' }: { current?: string }) {
                 <div>
                   <a
                     className="text-sm font-medium text-gray-500 mr-2"
-                    href="mailto:nsconsultingsolutionsllc@gmail.com"
+                    href={`mailto:${details.email}`}
                   >
-                    nsconsultingsolutionsllc@gmail.com
+                    {details.email}
                   </a>
                   <span className="text-gray-300">●</span>
                   <a
                     className="text-base font-medium text-gray-600 ml-2 font-kanit"
-                    href="tel:507-200-8022"
+                    href={`tel:${details.phoneNumber}`}
                   >
-                    507-200-8022
+                    {details.phoneNumber}
                   </a>
                 </div>
               </div>
@@ -140,15 +141,15 @@ export default function Navbar({ current = 'Home' }: { current?: string }) {
                 <div className="ml-3 flex flex-col">
                   <a
                     className="text-base font-medium text-gray-800"
-                    href="tel:507-200-8022"
+                    href={`tel:${details.phoneNumber}`}
                   >
-                    507-200-8022
+                    {details.phoneNumber}
                   </a>
                   <a
                     className="text-sm font-medium text-gray-500"
-                    href="mailto:nsconsultingsolutionsllc@gmail.com"
+                    href={`mailto:${details.email}`}
                   >
-                    nsconsultingsolutionsllc@gmail.com
+                    {details.email}
                   </a>
                 </div>
               </div>
