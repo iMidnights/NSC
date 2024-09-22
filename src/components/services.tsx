@@ -207,7 +207,7 @@ export default function Example() {
       {/* Learn more button with arrow */}
       <div className="mt-16 flex justify-center">
         <a
-          href="/services"
+          href="/about"
           className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700"
         >
           Learn more →
