@@ -173,16 +173,16 @@ export default function Example() {
                   </span>
                 </div>
                 <div className="mt-8">
-                  <h3 className="text-base font-semibold leading-6 text-gray-900">
-                    <a
+                  <h6 className="text-base font-semibold leading-6 text-gray-900">
+                    <span
                       // href={action.href}
                       className="focus:outline-none"
                     >
                       {/* Extend touch target to entire panel */}
                       <span aria-hidden="true" className="absolute inset-0" />
                       {action.title}
-                    </a>
-                  </h3>
+                    </span>
+                  </h6>
                   <p className="mt-2 text-md text-gray-500">
                     {action.description}
                   </p>
